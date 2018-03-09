@@ -1,0 +1,78 @@
+1.What are the different bean scopes in Spring Batch 3.0?
+
+a. Step
+b. Auto
+c. Job
+d. Singleton
+--------------------------------------------------------
+2.List some usage scenarios of Spring Framework?
+
+__________________,__________________________
+-------------------------------------------------------
+3.Technical advantages of using Spring Batch Framework from a developer perspective?
+
+a. allows developers to concentrate on the business logic
+b. improves the business procedure and framework facilitates the infrastructure.
+c.Clear separation of concerns between the infrastructure, the batch execution environment, the batch application and the different steps/proceses within a batch application.
+d. All of the above
+---------------------------------------------------
+4.Spring Batch Architecture has -----------, ------------ and -----------------
+
+----------------------------------------------------
+5.Spring Batch applications are categorized based on input source ass
+
+a. Database Driven
+b. File Driven
+c. Message Driven
+d. All of the above
+--------------------------------------------------------------
+6.____________,___________________,_________________are Item Readers
+----------------------------------------------------------------
+7.The Tasklet is -------------- which performs any single task such as setup resource, running a sql update, cleaning up resources etc. 
+a. Method
+b. Step
+c. Interface
+d. None of the above
+-----------------------------------------------------------------------
+8.Spring Batch Metadata Schema persists batch domain objects
+
+such as ___________________,___________________________,_______________.
+
+-----------------------------------------------------------------------
+9.Can We Create A Spring Batch With No Step?
+a. Yes
+b. No
+-----------------------------------------------------------------
+10.How Do We Track The Number Of Item Processed By The Itemreader In Spring Batch?
+a.ItemCountAware
+b.Marker Interface'
+c.All of the above
+---------------------------------------------------------------
+11.An ExecutionContext represents a collection of -------------------
+and __________________
+------------------------------------------------------------------
+12.Spring Batch Jobs In Production Environment run using ------------
+and ----------------------
+--------------------------------------------------------------
+13.ItemReader is an abstraction that represents the retrieval of input for a Step
+a.Record
+b.Item
+c.Row
+d.All of the above
+-------------------------------------------------------------------
+14.
+The JobRepository is used for Spring Batch Framework features such as
+--------------------------- and ---------------------
+
+-------------------------------------------------------------------
+15.Is Spring Batach Thread Safe
+a. yes
+b. No 
+
+
+
+
+
+
+
+
