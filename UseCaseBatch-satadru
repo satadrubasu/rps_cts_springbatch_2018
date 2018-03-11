@@ -1,0 +1,15 @@
+Use Case :
+  1. Multi Thread with thread size as 10.
+     A partition has divided the data set into [data01,data02....data03 ]
+     where dXX--> represent a certain count of records.In our case 40 ==> data01 == 40 records
+  2. Now each thread is serving to corresponding dxx meaning : 
+       thread01--> data01 
+     / thread02 --> data02.
+  
+  3. Each thread / Step == Read/Process/Write . chunk(5) and data == 40
+     so commit count will be 8 [ 5*8=40 ]
+  4.If we dont have any skippable etc / and only Thread03 fails while processing the very first chunk ( 1st 5 records out of 40 )
+     the entire thread fails and doesnt process the remaining 35/40 as well.
+     
+     Question how to control this at chunk level failure control and proceed with the next version of executing the same thread.
+      
